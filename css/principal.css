@@ -1,0 +1,48 @@
+.principal-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 60px;
+  padding-top: 100px;
+}
+
+.principal-texto {
+  padding-top: 60px;
+}
+
+.principal-texto h1 {
+  font-family: "Kreon";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 52px;
+  color: #616161;
+}
+
+.principal-texto h1 span {
+  color: #d55946;
+}
+
+.principal-texto p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #7b7b7b;
+  max-width: 40ch;
+}
+
+@media (max-width: 800px) {
+  .principal-conteudo {
+    padding-top: 60px;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .principal-texto {
+    padding-top: 0px;
+  }
+
+  .principal-texto h1,
+  .principal-texto p {
+    text-align: center;
+  }
+  .principal-texto p {
+    max-width: 60ch;
+  }
+}
