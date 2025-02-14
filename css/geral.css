@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 body,
 h1,
 h2,
@@ -7,6 +11,14 @@ li,
 a {
   margin: 0px;
   padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {

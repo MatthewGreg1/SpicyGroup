@@ -1,0 +1,17 @@
+.entrega-bg {
+  background: #e6cdbd;
+}
+
+.entrega {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0px 200px;
+}
+
+.entrega-item {
+  display: flex;
+  gap: 0px 10px;
+  color: #7b1202;
+  font-size: 1rem;
+}
