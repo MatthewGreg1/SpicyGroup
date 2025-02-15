@@ -2,7 +2,11 @@
 @import "entrega.css";
 @import "header.css";
 @import "principal.css";
+@import "etapas.css";
 
 /* Outros */
 @import "geral.css";
 @import "utilitarios.css";
+body {
+  margin-bottom: 200px;
+}

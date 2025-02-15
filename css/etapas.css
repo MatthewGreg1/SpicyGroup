@@ -1,0 +1,98 @@
+.etapas-bg {
+  background-color: #d55946;
+}
+
+.etapas {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.etapas-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px 90px;
+}
+
+.etapas-titulo2 {
+  text-align: center;
+  position: relative;
+}
+
+.etapas-titulo2 h1 {
+  font-size: 2.5rem;
+  color: #f6f6f6;
+  line-height: 36px;
+}
+
+.etapas-titulo2 p {
+  font-size: 1.225rem;
+  color: #e6cdbd;
+  line-height: 22px;
+}
+
+.etapas-titulo2::after {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 4px;
+  background: #f6f6f6;
+  bottom: -20px;
+  right: 150px;
+}
+
+.etapas-itens {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.etapas-cartoes {
+  margin: 20px;
+  background: #e6cdbd;
+  justify-items: center;
+  border-radius: 5px;
+  padding: 30px 40px;
+  position: relative;
+}
+
+.etapas-cartoes h1 {
+  font-size: 2.5rem;
+  font-family: "Krub";
+  color: #d55946;
+}
+
+.etapas-cartoes p {
+  font-size: 1.2rem;
+  color: #4a4a4a;
+  text-align: center;
+  max-width: 18ch;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
+.etapas-cartoes img {
+  padding-top: 24px;
+}
+
+@media (max-width: 700px) {
+  .etapas {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .etapas-titulo {
+    flex-direction: column;
+    gap: 30px 0px;
+  }
+
+  .etapas-titulo2::after {
+    display: none;
+  }
+
+  .etapas-icon {
+    display: none;
+  }
+  .etapas-itens {
+    margin-top: 20px;
+  }
+}
