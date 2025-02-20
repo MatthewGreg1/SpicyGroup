@@ -4,10 +4,8 @@
 @import "principal.css";
 @import "etapas.css";
 @import "produtos.css";
+@import "footer.css";
 
 /* Outros */
 @import "geral.css";
 @import "utilitarios.css";
-body {
-  margin-bottom: 200px;
-}
