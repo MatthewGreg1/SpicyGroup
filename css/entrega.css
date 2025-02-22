@@ -4,14 +4,30 @@
 
 .entrega {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 0px 200px;
+  gap: 0px 100px;
 }
 
 .entrega-item {
   display: flex;
+  align-items: center;
   gap: 0px 10px;
   color: #7b1202;
   font-size: 1rem;
+}
+
+.entrega-item img {
+  height: 20px;
+  width: 20px;
+}
+
+@media (max-width: 800px) {
+  .entrega {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .entrega-item p {
+    line-height: 10px;
+  }
 }
