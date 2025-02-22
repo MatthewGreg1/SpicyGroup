@@ -5,10 +5,11 @@
 }
 
 .footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  display: flex;
+  justify-content: space-between;
   color: #efecea;
+  gap: 0px 50px;
+  flex-wrap: wrap;
 }
 
 .footer-contato {
@@ -25,5 +26,39 @@
   padding-bottom: 20px;
 }
 
-.footer-email {
+.footer-email input {
+  display: block;
+  width: 300px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.footer-email button {
+  color: #efecea;
+  background: #7b1202;
+  padding: 10px 42px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    justify-content: center;
+  }
+
+  .footer-contato > img {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-email {
+    padding-top: 24px;
+  }
 }
